@@ -14,6 +14,7 @@ const AppRouter = () => {
         <Route path={Paths.dashboard} element={<DashboardPage />} />
         <Route path={Paths.loanApplication} element={<LoanApplicationPage />} />
         <Route path={Paths.loanReports} element={<LoanReportPage />} />
+        <Route path="*" element={<LoginPage />} />
       </Route>
     </Routes>
   );
